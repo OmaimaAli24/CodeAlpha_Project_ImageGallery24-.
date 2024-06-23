@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <br>
+    <h1>Image Gallery</h1>
+    <div class="container">
+       
+        <div class="gallery">
+            <img src="Images/pic1.jpeg" class="active">
+            <img src="Images/pic2.jpeg">
+            <img src="Images/pic3.jpeg">
+            <img src="Images/pic4.jpeg">
+            <img src="Images/pic5.jpeg">
+            <img src="Images/pic6.jpeg">
+            <img src="Images/pic7.jpeg">
+            <img src="Images/pic8.jpeg">
+            <img src="Images/pic9.jpeg">
+            <img src="Images/pic10.jpeg">
+            <img src="Images/pic11.jpeg">
+            <img src="Images/pic12.jpeg">
+            <img src="Images/pic13.jpeg">
+            <img src="Images/pic14.jpeg">
+            <img src="Images/pic15.jpeg">
+            <img src="Images/pic16.jpeg">
+            <img src="Images/pic17.jpeg">
+            <img src="Images/pic18.jpeg">
+            <img src="Images/pic19.jpeg">
+            <img src="Images/pic20.jpeg">
+        </div>
+        <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+        </div>     
+        <a class="arrow prev" onclick="changeImage(-1)">&#10094;</a>
+        <a class="arrow next" onclick="changeImage(1)">&#10095;</a>   
+    </div>
+       <script src="script.js" ></script>
+</body>
+</html>
